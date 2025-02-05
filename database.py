@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 
 # MySQL Workbench Connection String
-DATABASE_URL = "mysql+pymysql://root:12345@localhost:3306/chatbot_db"
+DATABASE_URL = "mysql+pymysql://root:12345@localhost:3306/Chatbot"
 
 # Create Engine
 engine = create_engine(DATABASE_URL, echo=True, pool_pre_ping=True)
